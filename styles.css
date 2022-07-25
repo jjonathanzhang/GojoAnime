@@ -1,3 +1,14 @@
+/*
+Color Theme Swatches in Hex
+
+{ color: #D2D6D9; }
+{ color: #F25922; }
+{ color: #F24C27; }
+{ color: #A63E26; }
+{ color: #262626; }
+*/
+
+
 body {
     margin: 8px;
     background-color: #F25922;
@@ -11,6 +22,11 @@ body {
     --bs-nav-pills-border-radius: 0.375rem;
     --bs-nav-pills-link-active-color: #D2D6D9;
     --bs-nav-pills-link-active-bg: #A63E26;
+}
+
+.nav {
+    --bs-nav-link-color: #262626;
+    --bs-nav-link-hover-color: #D2D6D9;
 }
 
 .bg-gray {
