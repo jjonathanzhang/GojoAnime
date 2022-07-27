@@ -14,6 +14,10 @@ body {
     background-color: #F25922;
 }
 
+main {
+    font-family: 'Carter One';
+}
+
 .rounded-5 {
     --bs-border-radius-2xl: 0.75rem!important;
 }
@@ -32,4 +36,72 @@ body {
 .bg-gray {
     --bs-bg-opacity: 1;
     --bs-gray-500: #adb5bd;
+}
+
+.container {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    max-width: 97%;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: #262626;
+    transition: 0.5s;
+}
+
+.footer-links:hover {
+    color: #D2D6D9;
+}
+
+#footer-logo {
+    margin-right: 2.5%;
+}
+
+#message-part1 {
+    position: absolute;
+    left: 35%;
+    top: 15%;
+}
+
+#message-part2 {
+    position: absolute;
+    left: 45%;
+    top: 25%;
+}
+
+#login-form-area {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+}
+
+#login-form-area h6 {
+    position: absolute;
+    top: 106%;
+    left: 47%;
+}
+
+.login-form-elements {
+    margin: 5px auto;
+}
+
+#form-divider1, #form-divider2 {
+    position: absolute;
+    width: 45%;
+    border-top: solid 2px black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+#form-divider2 {
+    right: 0;
+}
+
+.register-btn {
+    position: absolute;
+    top: 125%;
+    width: 100%;
 }
