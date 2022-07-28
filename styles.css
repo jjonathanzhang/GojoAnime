@@ -1,17 +1,20 @@
 /*
-Color Theme Swatches in Hex
+    Color Theme Swatches in Hex
 
-{ color: #D2D6D9; }
-{ color: #F25922; }
-{ color: #F24C27; }
-{ color: #A63E26; }
-{ color: #262626; }
+    { color: #D2D6D9; }
+    { color: #F25922; }
+    { color: #F24C27; }
+    { color: #A63E26; }
+    { color: #262626; }
+    { color: #F78104; }
 */
 
 
 body {
     margin: 8px;
-    background-color: #F25922;
+    /* background-color: #F25922; */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(242,89,34,1) 0%, rgba(250,171,54,1) 100%);
 }
 
 main {
@@ -63,12 +66,14 @@ main {
     position: absolute;
     left: 35%;
     top: 15%;
+    font-size: 3rem;
 }
 
 #message-part2 {
     position: absolute;
     left: 45%;
-    top: 25%;
+    top: 22%;
+    font-size: 3.5rem;
 }
 
 #login-form-area {
@@ -159,4 +164,24 @@ main {
 .about-item:hover h3,
 .about-item:hover hr{
     transition: all 400ms ease-in-out;
+}
+
+/* test */
+html, body { height: 150% }
+
+body {
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
 }
